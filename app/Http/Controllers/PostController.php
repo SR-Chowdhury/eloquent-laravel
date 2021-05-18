@@ -23,6 +23,12 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function SingleUserPost() {
+        $singleUserPost = Post::where('user_id', 1)->get();
+        return view('post_by_user', compact('singleUserPost'));
+    }
+
     public function create()
     {
         //

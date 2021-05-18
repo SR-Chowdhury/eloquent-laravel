@@ -23,3 +23,5 @@ Route::get('/', function () {
 Route::resource('users', UserController::class);
 Route::resource('phone', PhoneController::class);
 Route::resource('post', PostController::class);
+
+Route::get('singlepost', [PostController::class, 'SingleUserPost']);

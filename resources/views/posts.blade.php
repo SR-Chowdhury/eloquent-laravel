@@ -8,6 +8,7 @@
         <a class="btn btn-sm mx-1 btn-outline-info" href=" {{ URL::to('users') }} ">Users</a>
         <a class="btn btn-sm mx-1 btn-outline-info" href=" {{ URL::to('phone') }} ">Phone</a>
         <a class="btn btn-sm mx-1 btn-outline-info" href=" {{ URL::to('post') }} ">Posts</a>
+        <a class="btn btn-sm mx-1 btn-outline-info" href=" {{ URL::to('singlepost') }} ">Single User Post</a>
     </div>
 </div>
 

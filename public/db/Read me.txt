@@ -1,0 +1,8 @@
+First create a DB: eloquent_laravel
+Than import the eloquent_laravel.sql into DB;
+
+here we go....
+
+URL: localhost/eloquent-laravel/users
+
+Done.

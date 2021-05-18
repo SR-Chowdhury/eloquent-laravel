@@ -13,4 +13,8 @@ class User extends Model
         'name',
         'email',
     ];
+
+    public function phone() {
+        return $this->hasOne(Phone::class);
+    }
 }

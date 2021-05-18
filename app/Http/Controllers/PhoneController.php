@@ -14,7 +14,8 @@ class PhoneController extends Controller
      */
     public function index()
     {
-        //
+        $phoneData = Phone::all();
+        return view('phone', compact('phoneData'));
     }
 
     /**
